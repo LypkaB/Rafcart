@@ -21,5 +21,11 @@ tailwind.config = {
                 'primary': '#fd3d57'
             }
         }
+    },
+    variants: {
+        extend: {
+            display: ['group-hover'],
+            visibility: ['group-hover']
+        }
     }
 }
